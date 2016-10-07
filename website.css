@@ -1,0 +1,46 @@
+.body
+{
+	width: 100%;
+	height: 1100px;
+	background-color: grey;
+
+}
+.form1
+{
+	width: 100%;
+	height: 45px;
+	background-color: black;
+	
+}
+.button input
+{
+	float: right;
+	margin-top: 15px;
+	background-color: #00BCD4;
+	border-radius: 4px;
+
+
+}
+.sidebar
+{
+	width: 150px;
+	height: 60px;
+	margin-left: 25px;
+	background-color: lightgray;
+}
+
+.main
+{
+	width: 100%px;
+	height: 250px;
+	background-color: lightblue;
+	
+}
+
+.menu
+{
+	width: 100%px;
+	height: 40px;
+	background-color: darkred;
+
+}
