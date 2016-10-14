@@ -1,15 +1,22 @@
-.body
+body
 {
-	width: 100%;
+	background-color: white;
+
+
+}
+#main
+{
+	width: 980px;
 	height: 1100px;
-	background-color: grey;
+	margin: auto;
 
 }
 .form1
 {
-	width: 100%;
+	width: 980px;
 	height: 45px;
 	background-color: black;
+	
 	
 }
 .button input
@@ -18,29 +25,225 @@
 	margin-top: 15px;
 	background-color: #00BCD4;
 	border-radius: 4px;
+	border: none;
 
 
 }
-.sidebar
+#sidebar
 {
 	width: 150px;
 	height: 60px;
 	margin-left: 25px;
 	background-color: lightgray;
+	position: absolute;
+	margin-top: -45px;
+}
+.online
+{
+	text-align: center;
+	padding-top: 20px;
+	color: darkred;
+	font-weight: 500; 
 }
 
-.main
+.header
 {
-	width: 100%px;
+	width: 980px;
 	height: 250px;
-	background-color: lightblue;
+	background-image: url("E:/shyab/assignment/Review/mainnew.jpg");
+
+
+}
+
+.search
+{
+	height: 45px;
+	width: 265px;
+	background-color: #9bb7c2;
+	position: absolute;
+	margin-top: 160px;
+	margin-left: 355px;
+}
+
+.searchname
+{
+	font-size: 12px;
+	color: #326a81;
+	margin-left: 10px;
+	margin-top: 12px;
+}
+#menu
+{
+	width: 980px;
+	height: 40px;
+	background-color: darkred;
+	
+
+}
+
+.memberimage
+{
+	width: 2px;
+	height: 2px;
+	margin-left: 20px;
+	padding-top: 10px;
+	background-image: 
+}
+.member
+{
+	font-size: medium;
+	margin-left: 50px;
+	color: white;
+}
+.text
+{
+	
+	margin-left: 300px;
+	margin-top: -20px;
+	background-color: darkred;
+
+}
+
+.loginbt
+{
+	margin-left: 820px;
+	border-radius: 5px;
+	background-color: white;
+}
+
+#content
+{
+	width: 980px;
+	height: 705px;
+	background-color: rgba(128, 128, 128, 0.14);
+	position: relative;
+}
+
+.form
+{
+	width: 600px;
+	height: 200px;
+	margin-left: 40px;
+	margin-top: 40px;
+	position:absolute;
+
+}
+
+.formhead
+{
+	font-size: larger;
+
+}
+
+.formpara
+{
+	font-size: small;
+}
+
+.formpara2
+{
+	font-size: small;
+	text-align: justify;
+	margin-left:
+}
+
+.formpic img
+{
+	width: 180px;
+	height: 140px;
+	border-radius: 6px;
+	float: left;
+}
+
+.sidecontent
+{
+	width: 220px;
+	height: 400px;
+	float: right;
+	margin-top: 40px;
+	margin-right: 40px;
+	
+
+}
+
+.sidehead
+{
+	font-size: larger;
+	text-align: left;
+	margin-left: 30px;
+
+}
+
+.sidelist li
+{
+	list-style: none;
+	border-bottom: 1px solid grey;
+	margin-left: 5px;
+	text-align: start;
 	
 }
 
-.menu
+.box
 {
-	width: 100%px;
-	height: 40px;
-	background-color: darkred;
+	height: 200px;
+	width: 300px;
+	background-color: rgba(193, 193, 193, 0.4);
+	border-radius: 6px;
+	margin-top: 420px;
+	margin-left: 40px;
+	position: absolute;
+}
 
+.boxhead
+{
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: large;
+}
+
+.boxpic
+{
+	width: 280px;
+	height: 65px;
+	margin-left: 10px;
+	margin-top: 10px;
+
+
+}
+
+
+.box2
+{
+	height: 200px;
+	width: 300px;
+	background-color: hsla(238, 100%, 50%, 0.25);
+	border-radius: 6px;
+	margin-top: 420px;
+	margin-left: 440px;
+	position: absolute;
+}
+
+
+.delivery
+{
+	height: 65px;
+	width: 200px;
+	background-color: #5f0202;
+	margin-top: 100px;
+	border-radius: 10px;
+}
+
+.deliveryhead
+{
+	font-size: x-large;
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+}
+
+.deliverypara
+{
+	font-size: large;
+	color: black;
+	text-align: center;
 }
